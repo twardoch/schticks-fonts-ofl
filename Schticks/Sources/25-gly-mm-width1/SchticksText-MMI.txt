@@ -1,0 +1,632 @@
+(
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 60;
+        interpolationWidth = 90;
+        name = "1 UlCd 100 Th It";
+        weightClass = Thin;
+        widthClass = "Ultra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 66;
+        interpolationWidth = 90;
+        name = "1 UlCd 200 ExLt It";
+        weightClass = ExtraLight;
+        widthClass = "Ultra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 73;
+        interpolationWidth = 90;
+        name = "1 UlCd 300 Lt It";
+        weightClass = Light;
+        widthClass = "Ultra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 80;
+        interpolationWidth = 90;
+        name = "1 UlCd 400 Rg It";
+        widthClass = "Ultra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 89;
+        interpolationWidth = 90;
+        name = "1 UlCd 500 Md It";
+        weightClass = Medium;
+        widthClass = "Ultra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 100;
+        interpolationWidth = 90;
+        name = "1 UlCd 600 SmBd It";
+        weightClass = SemiBold;
+        widthClass = "Ultra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 112;
+        interpolationWidth = 90;
+        name = "1 UlCd 700 Bd It";
+        weightClass = Bold;
+        widthClass = "Ultra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 125;
+        interpolationWidth = 90;
+        name = "1 UlCd 800 ExBd It";
+        weightClass = ExtraBold;
+        widthClass = "Ultra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 140;
+        interpolationWidth = 90;
+        name = "1 UlCd 900 Blk It";
+        weightClass = Black;
+        widthClass = "Ultra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 60;
+        interpolationWidth = 92;
+        name = "2 ExCd 100 Th It";
+        weightClass = Thin;
+        widthClass = "Extra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 66;
+        interpolationWidth = 92;
+        name = "2 ExCd 200 ExLt It";
+        weightClass = ExtraLight;
+        widthClass = "Extra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 73;
+        interpolationWidth = 92;
+        name = "2 ExCd 300 Lt It";
+        weightClass = Light;
+        widthClass = "Extra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 80;
+        interpolationWidth = 92;
+        name = "2 ExCd 400 Rg It";
+        widthClass = "Extra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 89;
+        interpolationWidth = 92;
+        name = "2 ExCd 500 Md It";
+        weightClass = Medium;
+        widthClass = "Extra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 100;
+        interpolationWidth = 92;
+        name = "2 ExCd 600 SmBd It";
+        weightClass = SemiBold;
+        widthClass = "Extra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 112;
+        interpolationWidth = 92;
+        name = "2 ExCd 700 Bd It";
+        weightClass = Bold;
+        widthClass = "Extra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 125;
+        interpolationWidth = 92;
+        name = "2 ExCd 800 ExBd It";
+        weightClass = ExtraBold;
+        widthClass = "Extra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 140;
+        interpolationWidth = 92;
+        name = "2 ExCd 900 Blk It";
+        weightClass = Black;
+        widthClass = "Extra Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 60;
+        interpolationWidth = 95;
+        name = "3 Cd 100 Th It";
+        weightClass = Thin;
+        widthClass = "Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 66;
+        interpolationWidth = 95;
+        name = "3 Cd 200 ExLt It";
+        weightClass = ExtraLight;
+        widthClass = "Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 73;
+        interpolationWidth = 95;
+        name = "3 Cd 300 Lt It";
+        weightClass = Light;
+        widthClass = "Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 80;
+        interpolationWidth = 95;
+        name = "3 Cd 400 Rg It";
+        widthClass = "Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 89;
+        interpolationWidth = 95;
+        name = "3 Cd 500 Md It";
+        weightClass = Medium;
+        widthClass = "Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 100;
+        interpolationWidth = 95;
+        name = "3 Cd 600 SmBd It";
+        weightClass = SemiBold;
+        widthClass = "Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 112;
+        interpolationWidth = 95;
+        name = "3 Cd 700 Bd It";
+        weightClass = Bold;
+        widthClass = "Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 125;
+        interpolationWidth = 95;
+        name = "3 Cd 800 ExBd It";
+        weightClass = ExtraBold;
+        widthClass = "Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 140;
+        interpolationWidth = 95;
+        name = "3 Cd 900 Blk It";
+        weightClass = Black;
+        widthClass = "Condensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 60;
+        interpolationWidth = 97;
+        name = "4 SmCd 100 Th It";
+        weightClass = Thin;
+        widthClass = "SemiCondensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 66;
+        interpolationWidth = 97;
+        name = "4 SmCd 200 ExLt It";
+        weightClass = ExtraLight;
+        widthClass = "SemiCondensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 73;
+        interpolationWidth = 97;
+        name = "4 SmCd 300 Lt It";
+        weightClass = Light;
+        widthClass = "SemiCondensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 80;
+        interpolationWidth = 97;
+        name = "4 SmCd 400 Rg It";
+        widthClass = "SemiCondensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 89;
+        interpolationWidth = 97;
+        name = "4 SmCd 500 Md It";
+        weightClass = Medium;
+        widthClass = "SemiCondensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 100;
+        interpolationWidth = 97;
+        name = "4 SmCd 600 SmBd It";
+        weightClass = SemiBold;
+        widthClass = "SemiCondensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 112;
+        interpolationWidth = 97;
+        name = "4 SmCd 700 Bd It";
+        weightClass = Bold;
+        widthClass = "SemiCondensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 125;
+        interpolationWidth = 97;
+        name = "4 SmCd 800 ExBd It";
+        weightClass = ExtraBold;
+        widthClass = "SemiCondensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 140;
+        interpolationWidth = 97;
+        name = "4 SmCd 900 Blk It";
+        weightClass = Black;
+        widthClass = "SemiCondensed";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 60;
+        interpolationWidth = 100;
+        name = "5 No 100 Th It";
+        weightClass = Thin;
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 66;
+        interpolationWidth = 100;
+        name = "5 No 200 ExLt It";
+        weightClass = ExtraLight;
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 73;
+        interpolationWidth = 100;
+        name = "5 No 300 Lt It";
+        weightClass = Light;
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 80;
+        interpolationWidth = 100;
+        name = "5 No 400 Rg It";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 89;
+        interpolationWidth = 100;
+        name = "5 No 500 Md It";
+        weightClass = Medium;
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 100;
+        interpolationWidth = 100;
+        name = "5 No 600 SmBd It";
+        weightClass = SemiBold;
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 112;
+        interpolationWidth = 100;
+        name = "5 No 700 Bd It";
+        weightClass = Bold;
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 125;
+        interpolationWidth = 100;
+        name = "5 No 800 ExBd It";
+        weightClass = ExtraBold;
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 140;
+        interpolationWidth = 100;
+        name = "5 No 900 Blk It";
+        weightClass = Black;
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 60;
+        interpolationWidth = 102;
+        name = "6 SmWd 100 Th It";
+        weightClass = Thin;
+        widthClass = "Semi Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 66;
+        interpolationWidth = 102;
+        name = "6 SmWd 200 ExLt It";
+        weightClass = ExtraLight;
+        widthClass = "Semi Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 73;
+        interpolationWidth = 102;
+        name = "6 SmWd 300 Lt It";
+        weightClass = Light;
+        widthClass = "Semi Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 80;
+        interpolationWidth = 102;
+        name = "6 SmWd 400 Rg It";
+        widthClass = "Semi Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 89;
+        interpolationWidth = 102;
+        name = "6 SmWd 500 Md It";
+        weightClass = Medium;
+        widthClass = "Semi Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 100;
+        interpolationWidth = 102;
+        name = "6 SmWd 600 SmBd It";
+        weightClass = SemiBold;
+        widthClass = "Semi Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 112;
+        interpolationWidth = 102;
+        name = "6 SmWd 700 Bd It";
+        weightClass = Bold;
+        widthClass = "Semi Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 125;
+        interpolationWidth = 102;
+        name = "6 SmWd 800 ExBd It";
+        weightClass = ExtraBold;
+        widthClass = "Semi Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 140;
+        interpolationWidth = 102;
+        name = "6 SmWd 900 Blk It";
+        weightClass = Black;
+        widthClass = "Semi Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 60;
+        interpolationWidth = 105;
+        name = "7 Wd 100 Th It";
+        weightClass = Thin;
+        widthClass = "Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 66;
+        interpolationWidth = 105;
+        name = "7 Wd 200 ExLt It";
+        weightClass = ExtraLight;
+        widthClass = "Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 73;
+        interpolationWidth = 105;
+        name = "7 Wd 300 Lt It";
+        weightClass = Light;
+        widthClass = "Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 80;
+        interpolationWidth = 105;
+        name = "7 Wd 400 Rg It";
+        widthClass = "Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 89;
+        interpolationWidth = 105;
+        name = "7 Wd 500 Md It";
+        weightClass = Medium;
+        widthClass = "Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 100;
+        interpolationWidth = 105;
+        name = "7 Wd 600 SmBd It";
+        weightClass = SemiBold;
+        widthClass = "Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 112;
+        interpolationWidth = 105;
+        name = "7 Wd 700 Bd It";
+        weightClass = Bold;
+        widthClass = "Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 125;
+        interpolationWidth = 105;
+        name = "7 Wd 800 ExBd It";
+        weightClass = ExtraBold;
+        widthClass = "Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 140;
+        interpolationWidth = 105;
+        name = "7 Wd 900 Blk It";
+        weightClass = Black;
+        widthClass = "Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 60;
+        interpolationWidth = 107;
+        name = "8 ExWd 100 Th It";
+        weightClass = Thin;
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 66;
+        interpolationWidth = 107;
+        name = "8 ExWd 200 ExLt It";
+        weightClass = ExtraLight;
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 73;
+        interpolationWidth = 107;
+        name = "8 ExWd 300 Lt It";
+        weightClass = Light;
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 80;
+        interpolationWidth = 107;
+        name = "8 ExWd 400 Rg It";
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 89;
+        interpolationWidth = 107;
+        name = "8 ExWd 500 Md It";
+        weightClass = Medium;
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 100;
+        interpolationWidth = 107;
+        name = "8 ExWd 600 SmBd It";
+        weightClass = SemiBold;
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 112;
+        interpolationWidth = 107;
+        name = "8 ExWd 700 Bd It";
+        weightClass = Bold;
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 125;
+        interpolationWidth = 107;
+        name = "8 ExWd 800 ExBd It";
+        weightClass = ExtraBold;
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 140;
+        interpolationWidth = 107;
+        name = "8 ExWd 900 Blk It";
+        weightClass = Black;
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 60;
+        interpolationWidth = 110;
+        name = "9 UlWd 100 Th It";
+        weightClass = Thin;
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 66;
+        interpolationWidth = 110;
+        name = "9 UlWd 200 ExLt It";
+        weightClass = ExtraLight;
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 73;
+        interpolationWidth = 110;
+        name = "9 UlWd 300 Lt It";
+        weightClass = Light;
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 80;
+        interpolationWidth = 110;
+        name = "9 UlWd 400 Rg It";
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 89;
+        interpolationWidth = 110;
+        name = "9 UlWd 500 Md It";
+        weightClass = Medium;
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 100;
+        interpolationWidth = 110;
+        name = "9 UlWd 600 SmBd It";
+        weightClass = SemiBold;
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 112;
+        interpolationWidth = 110;
+        name = "9 UlWd 700 Bd It";
+        weightClass = Bold;
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 125;
+        interpolationWidth = 110;
+        name = "9 UlWd 800 ExBd It";
+        weightClass = ExtraBold;
+        widthClass = "Extra Expanded";
+    },
+        {
+        interpolationCustom = 0;
+        interpolationWeight = 140;
+        interpolationWidth = 110;
+        name = "9 UlWd 900 Blk It";
+        weightClass = Black;
+        widthClass = "Extra Expanded";
+    },
+)

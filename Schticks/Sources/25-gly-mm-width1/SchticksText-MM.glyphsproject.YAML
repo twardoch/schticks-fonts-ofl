@@ -1,0 +1,957 @@
+exportPath: otf
+fontPath: SchticksText-MM.glyphs
+instances:
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 1 UlCd
+    -   name: preferredSubfamilyName
+        value: 100 Th
+    interpolationCustom: 0.0
+    interpolationWeight: 60.0
+    interpolationWidth: 90.0
+    isItalic: false
+    name: 1 UlCd 100 Th
+    weightClass: Thin
+    widthClass: Ultra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 1 UlCd
+    -   name: preferredSubfamilyName
+        value: 200 ExLt
+    interpolationCustom: 0.0
+    interpolationWeight: 66.0
+    interpolationWidth: 90.0
+    isItalic: false
+    name: 1 UlCd 200 ExLt
+    weightClass: ExtraLight
+    widthClass: Ultra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 1 UlCd
+    -   name: preferredSubfamilyName
+        value: 300 Lt
+    interpolationCustom: 0.0
+    interpolationWeight: 73.0
+    interpolationWidth: 90.0
+    isItalic: false
+    name: 1 UlCd 300 Lt
+    weightClass: Light
+    widthClass: Ultra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 1 UlCd
+    -   name: preferredSubfamilyName
+        value: 400 Rg
+    interpolationCustom: 0.0
+    interpolationWeight: 80.0
+    interpolationWidth: 90.0
+    isItalic: false
+    name: 1 UlCd 400 Rg
+    widthClass: Ultra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 1 UlCd
+    -   name: preferredSubfamilyName
+        value: 500 Md
+    interpolationCustom: 0.0
+    interpolationWeight: 89.0
+    interpolationWidth: 90.0
+    isItalic: false
+    name: 1 UlCd 500 Md
+    weightClass: Medium
+    widthClass: Ultra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 1 UlCd
+    -   name: preferredSubfamilyName
+        value: 600 SmBd
+    interpolationCustom: 0.0
+    interpolationWeight: 100.0
+    interpolationWidth: 90.0
+    isItalic: false
+    name: 1 UlCd 600 SmBd
+    weightClass: SemiBold
+    widthClass: Ultra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 1 UlCd
+    -   name: preferredSubfamilyName
+        value: 700 Bd
+    interpolationCustom: 0.0
+    interpolationWeight: 112.0
+    interpolationWidth: 90.0
+    isItalic: false
+    name: 1 UlCd 700 Bd
+    weightClass: Bold
+    widthClass: Ultra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 1 UlCd
+    -   name: preferredSubfamilyName
+        value: 800 ExBd
+    interpolationCustom: 0.0
+    interpolationWeight: 125.0
+    interpolationWidth: 90.0
+    isItalic: false
+    name: 1 UlCd 800 ExBd
+    weightClass: ExtraBold
+    widthClass: Ultra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 1 UlCd
+    -   name: preferredSubfamilyName
+        value: 900 Blk
+    interpolationCustom: 0.0
+    interpolationWeight: 140.0
+    interpolationWidth: 90.0
+    isItalic: false
+    name: 1 UlCd 900 Blk
+    weightClass: Black
+    widthClass: Ultra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 2 ExCd
+    -   name: preferredSubfamilyName
+        value: 100 Th
+    interpolationCustom: 0.0
+    interpolationWeight: 60.0
+    interpolationWidth: 92.0
+    isItalic: false
+    name: 2 ExCd 100 Th
+    weightClass: Thin
+    widthClass: Extra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 2 ExCd
+    -   name: preferredSubfamilyName
+        value: 200 ExLt
+    interpolationCustom: 0.0
+    interpolationWeight: 66.0
+    interpolationWidth: 92.0
+    isItalic: false
+    name: 2 ExCd 200 ExLt
+    weightClass: ExtraLight
+    widthClass: Extra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 2 ExCd
+    -   name: preferredSubfamilyName
+        value: 300 Lt
+    interpolationCustom: 0.0
+    interpolationWeight: 73.0
+    interpolationWidth: 92.0
+    isItalic: false
+    name: 2 ExCd 300 Lt
+    weightClass: Light
+    widthClass: Extra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 2 ExCd
+    -   name: preferredSubfamilyName
+        value: 400 Rg
+    interpolationCustom: 0.0
+    interpolationWeight: 80.0
+    interpolationWidth: 92.0
+    isItalic: false
+    name: 2 ExCd 400 Rg
+    widthClass: Extra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 2 ExCd
+    -   name: preferredSubfamilyName
+        value: 500 Md
+    interpolationCustom: 0.0
+    interpolationWeight: 89.0
+    interpolationWidth: 92.0
+    isItalic: false
+    name: 2 ExCd 500 Md
+    weightClass: Medium
+    widthClass: Extra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 2 ExCd
+    -   name: preferredSubfamilyName
+        value: 600 SmBd
+    interpolationCustom: 0.0
+    interpolationWeight: 100.0
+    interpolationWidth: 92.0
+    isItalic: false
+    name: 2 ExCd 600 SmBd
+    weightClass: SemiBold
+    widthClass: Extra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 2 ExCd
+    -   name: preferredSubfamilyName
+        value: 700 Bd
+    interpolationCustom: 0.0
+    interpolationWeight: 112.0
+    interpolationWidth: 92.0
+    isItalic: false
+    name: 2 ExCd 700 Bd
+    weightClass: Bold
+    widthClass: Extra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 2 ExCd
+    -   name: preferredSubfamilyName
+        value: 800 ExBd
+    interpolationCustom: 0.0
+    interpolationWeight: 125.0
+    interpolationWidth: 92.0
+    isItalic: false
+    name: 2 ExCd 800 ExBd
+    weightClass: ExtraBold
+    widthClass: Extra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 2 ExCd
+    -   name: preferredSubfamilyName
+        value: 900 Blk
+    interpolationCustom: 0.0
+    interpolationWeight: 140.0
+    interpolationWidth: 92.0
+    isItalic: false
+    name: 2 ExCd 900 Blk
+    weightClass: Black
+    widthClass: Extra Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 3 Cd
+    -   name: preferredSubfamilyName
+        value: 100 Th
+    interpolationCustom: 0.0
+    interpolationWeight: 60.0
+    interpolationWidth: 95.0
+    isItalic: false
+    name: 3 Cd 100 Th
+    weightClass: Thin
+    widthClass: Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 3 Cd
+    -   name: preferredSubfamilyName
+        value: 200 ExLt
+    interpolationCustom: 0.0
+    interpolationWeight: 66.0
+    interpolationWidth: 95.0
+    isItalic: false
+    name: 3 Cd 200 ExLt
+    weightClass: ExtraLight
+    widthClass: Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 3 Cd
+    -   name: preferredSubfamilyName
+        value: 300 Lt
+    interpolationCustom: 0.0
+    interpolationWeight: 73.0
+    interpolationWidth: 95.0
+    isItalic: false
+    name: 3 Cd 300 Lt
+    weightClass: Light
+    widthClass: Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 3 Cd
+    -   name: preferredSubfamilyName
+        value: 400 Rg
+    interpolationCustom: 0.0
+    interpolationWeight: 80.0
+    interpolationWidth: 95.0
+    isItalic: false
+    name: 3 Cd 400 Rg
+    widthClass: Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 3 Cd
+    -   name: preferredSubfamilyName
+        value: 500 Md
+    interpolationCustom: 0.0
+    interpolationWeight: 89.0
+    interpolationWidth: 95.0
+    isItalic: false
+    name: 3 Cd 500 Md
+    weightClass: Medium
+    widthClass: Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 3 Cd
+    -   name: preferredSubfamilyName
+        value: 600 SmBd
+    interpolationCustom: 0.0
+    interpolationWeight: 100.0
+    interpolationWidth: 95.0
+    isItalic: false
+    name: 3 Cd 600 SmBd
+    weightClass: SemiBold
+    widthClass: Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 3 Cd
+    -   name: preferredSubfamilyName
+        value: 700 Bd
+    interpolationCustom: 0.0
+    interpolationWeight: 112.0
+    interpolationWidth: 95.0
+    isItalic: false
+    name: 3 Cd 700 Bd
+    weightClass: Bold
+    widthClass: Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 3 Cd
+    -   name: preferredSubfamilyName
+        value: 800 ExBd
+    interpolationCustom: 0.0
+    interpolationWeight: 125.0
+    interpolationWidth: 95.0
+    isItalic: false
+    name: 3 Cd 800 ExBd
+    weightClass: ExtraBold
+    widthClass: Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 3 Cd
+    -   name: preferredSubfamilyName
+        value: 900 Blk
+    interpolationCustom: 0.0
+    interpolationWeight: 140.0
+    interpolationWidth: 95.0
+    isItalic: false
+    name: 3 Cd 900 Blk
+    weightClass: Black
+    widthClass: Condensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 4 SmCd
+    -   name: preferredSubfamilyName
+        value: 100 Th
+    interpolationCustom: 0.0
+    interpolationWeight: 60.0
+    interpolationWidth: 97.0
+    isItalic: false
+    name: 4 SmCd 100 Th
+    weightClass: Thin
+    widthClass: SemiCondensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 4 SmCd
+    -   name: preferredSubfamilyName
+        value: 200 ExLt
+    interpolationCustom: 0.0
+    interpolationWeight: 66.0
+    interpolationWidth: 97.0
+    isItalic: false
+    name: 4 SmCd 200 ExLt
+    weightClass: ExtraLight
+    widthClass: SemiCondensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 4 SmCd
+    -   name: preferredSubfamilyName
+        value: 300 Lt
+    interpolationCustom: 0.0
+    interpolationWeight: 73.0
+    interpolationWidth: 97.0
+    isItalic: false
+    name: 4 SmCd 300 Lt
+    weightClass: Light
+    widthClass: SemiCondensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 4 SmCd
+    -   name: preferredSubfamilyName
+        value: 400 Rg
+    interpolationCustom: 0.0
+    interpolationWeight: 80.0
+    interpolationWidth: 97.0
+    isItalic: false
+    name: 4 SmCd 400 Rg
+    widthClass: SemiCondensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 4 SmCd
+    -   name: preferredSubfamilyName
+        value: 500 Md
+    interpolationCustom: 0.0
+    interpolationWeight: 89.0
+    interpolationWidth: 97.0
+    isItalic: false
+    name: 4 SmCd 500 Md
+    weightClass: Medium
+    widthClass: SemiCondensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 4 SmCd
+    -   name: preferredSubfamilyName
+        value: 600 SmBd
+    interpolationCustom: 0.0
+    interpolationWeight: 100.0
+    interpolationWidth: 97.0
+    isItalic: false
+    name: 4 SmCd 600 SmBd
+    weightClass: SemiBold
+    widthClass: SemiCondensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 4 SmCd
+    -   name: preferredSubfamilyName
+        value: 700 Bd
+    interpolationCustom: 0.0
+    interpolationWeight: 112.0
+    interpolationWidth: 97.0
+    isItalic: false
+    name: 4 SmCd 700 Bd
+    weightClass: Bold
+    widthClass: SemiCondensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 4 SmCd
+    -   name: preferredSubfamilyName
+        value: 800 ExBd
+    interpolationCustom: 0.0
+    interpolationWeight: 125.0
+    interpolationWidth: 97.0
+    isItalic: false
+    name: 4 SmCd 800 ExBd
+    weightClass: ExtraBold
+    widthClass: SemiCondensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 4 SmCd
+    -   name: preferredSubfamilyName
+        value: 900 Blk
+    interpolationCustom: 0.0
+    interpolationWeight: 140.0
+    interpolationWidth: 97.0
+    isItalic: false
+    name: 4 SmCd 900 Blk
+    weightClass: Black
+    widthClass: SemiCondensed
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 5 No
+    -   name: preferredSubfamilyName
+        value: 100 Th
+    interpolationCustom: 0.0
+    interpolationWeight: 60.0
+    interpolationWidth: 100.0
+    isItalic: false
+    name: 5 No 100 Th
+    weightClass: Thin
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 5 No
+    -   name: preferredSubfamilyName
+        value: 200 ExLt
+    interpolationCustom: 0.0
+    interpolationWeight: 66.0
+    interpolationWidth: 100.0
+    isItalic: false
+    name: 5 No 200 ExLt
+    weightClass: ExtraLight
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 5 No
+    -   name: preferredSubfamilyName
+        value: 300 Lt
+    interpolationCustom: 0.0
+    interpolationWeight: 73.0
+    interpolationWidth: 100.0
+    isItalic: false
+    name: 5 No 300 Lt
+    weightClass: Light
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 5 No
+    -   name: preferredSubfamilyName
+        value: 400 Rg
+    interpolationCustom: 0.0
+    interpolationWeight: 80.0
+    interpolationWidth: 100.0
+    isItalic: false
+    name: 5 No 400 Rg
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 5 No
+    -   name: preferredSubfamilyName
+        value: 500 Md
+    interpolationCustom: 0.0
+    interpolationWeight: 89.0
+    interpolationWidth: 100.0
+    isItalic: false
+    name: 5 No 500 Md
+    weightClass: Medium
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 5 No
+    -   name: preferredSubfamilyName
+        value: 600 SmBd
+    interpolationCustom: 0.0
+    interpolationWeight: 100.0
+    interpolationWidth: 100.0
+    isItalic: false
+    name: 5 No 600 SmBd
+    weightClass: SemiBold
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 5 No
+    -   name: preferredSubfamilyName
+        value: 700 Bd
+    interpolationCustom: 0.0
+    interpolationWeight: 112.0
+    interpolationWidth: 100.0
+    isItalic: false
+    name: 5 No 700 Bd
+    weightClass: Bold
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 5 No
+    -   name: preferredSubfamilyName
+        value: 800 ExBd
+    interpolationCustom: 0.0
+    interpolationWeight: 125.0
+    interpolationWidth: 100.0
+    isItalic: false
+    name: 5 No 800 ExBd
+    weightClass: ExtraBold
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 5 No
+    -   name: preferredSubfamilyName
+        value: 900 Blk
+    interpolationCustom: 0.0
+    interpolationWeight: 140.0
+    interpolationWidth: 100.0
+    isItalic: false
+    name: 5 No 900 Blk
+    weightClass: Black
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 6 SmWd
+    -   name: preferredSubfamilyName
+        value: 100 Th
+    interpolationCustom: 0.0
+    interpolationWeight: 60.0
+    interpolationWidth: 102.0
+    isItalic: false
+    name: 6 SmWd 100 Th
+    weightClass: Thin
+    widthClass: Semi Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 6 SmWd
+    -   name: preferredSubfamilyName
+        value: 200 ExLt
+    interpolationCustom: 0.0
+    interpolationWeight: 66.0
+    interpolationWidth: 102.0
+    isItalic: false
+    name: 6 SmWd 200 ExLt
+    weightClass: ExtraLight
+    widthClass: Semi Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 6 SmWd
+    -   name: preferredSubfamilyName
+        value: 300 Lt
+    interpolationCustom: 0.0
+    interpolationWeight: 73.0
+    interpolationWidth: 102.0
+    isItalic: false
+    name: 6 SmWd 300 Lt
+    weightClass: Light
+    widthClass: Semi Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 6 SmWd
+    -   name: preferredSubfamilyName
+        value: 400 Rg
+    interpolationCustom: 0.0
+    interpolationWeight: 80.0
+    interpolationWidth: 102.0
+    isItalic: false
+    name: 6 SmWd 400 Rg
+    widthClass: Semi Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 6 SmWd
+    -   name: preferredSubfamilyName
+        value: 500 Md
+    interpolationCustom: 0.0
+    interpolationWeight: 89.0
+    interpolationWidth: 102.0
+    isItalic: false
+    name: 6 SmWd 500 Md
+    weightClass: Medium
+    widthClass: Semi Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 6 SmWd
+    -   name: preferredSubfamilyName
+        value: 600 SmBd
+    interpolationCustom: 0.0
+    interpolationWeight: 100.0
+    interpolationWidth: 102.0
+    isItalic: false
+    name: 6 SmWd 600 SmBd
+    weightClass: SemiBold
+    widthClass: Semi Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 6 SmWd
+    -   name: preferredSubfamilyName
+        value: 700 Bd
+    interpolationCustom: 0.0
+    interpolationWeight: 112.0
+    interpolationWidth: 102.0
+    isItalic: false
+    name: 6 SmWd 700 Bd
+    weightClass: Bold
+    widthClass: Semi Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 6 SmWd
+    -   name: preferredSubfamilyName
+        value: 800 ExBd
+    interpolationCustom: 0.0
+    interpolationWeight: 125.0
+    interpolationWidth: 102.0
+    isItalic: false
+    name: 6 SmWd 800 ExBd
+    weightClass: ExtraBold
+    widthClass: Semi Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 6 SmWd
+    -   name: preferredSubfamilyName
+        value: 900 Blk
+    interpolationCustom: 0.0
+    interpolationWeight: 140.0
+    interpolationWidth: 102.0
+    isItalic: false
+    name: 6 SmWd 900 Blk
+    weightClass: Black
+    widthClass: Semi Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 7 Wd
+    -   name: preferredSubfamilyName
+        value: 100 Th
+    interpolationCustom: 0.0
+    interpolationWeight: 60.0
+    interpolationWidth: 105.0
+    isItalic: false
+    name: 7 Wd 100 Th
+    weightClass: Thin
+    widthClass: Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 7 Wd
+    -   name: preferredSubfamilyName
+        value: 200 ExLt
+    interpolationCustom: 0.0
+    interpolationWeight: 66.0
+    interpolationWidth: 105.0
+    isItalic: false
+    name: 7 Wd 200 ExLt
+    weightClass: ExtraLight
+    widthClass: Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 7 Wd
+    -   name: preferredSubfamilyName
+        value: 300 Lt
+    interpolationCustom: 0.0
+    interpolationWeight: 73.0
+    interpolationWidth: 105.0
+    isItalic: false
+    name: 7 Wd 300 Lt
+    weightClass: Light
+    widthClass: Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 7 Wd
+    -   name: preferredSubfamilyName
+        value: 400 Rg
+    interpolationCustom: 0.0
+    interpolationWeight: 80.0
+    interpolationWidth: 105.0
+    isItalic: false
+    name: 7 Wd 400 Rg
+    widthClass: Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 7 Wd
+    -   name: preferredSubfamilyName
+        value: 500 Md
+    interpolationCustom: 0.0
+    interpolationWeight: 89.0
+    interpolationWidth: 105.0
+    isItalic: false
+    name: 7 Wd 500 Md
+    weightClass: Medium
+    widthClass: Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 7 Wd
+    -   name: preferredSubfamilyName
+        value: 600 SmBd
+    interpolationCustom: 0.0
+    interpolationWeight: 100.0
+    interpolationWidth: 105.0
+    isItalic: false
+    name: 7 Wd 600 SmBd
+    weightClass: SemiBold
+    widthClass: Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 7 Wd
+    -   name: preferredSubfamilyName
+        value: 700 Bd
+    interpolationCustom: 0.0
+    interpolationWeight: 112.0
+    interpolationWidth: 105.0
+    isItalic: false
+    name: 7 Wd 700 Bd
+    weightClass: Bold
+    widthClass: Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 7 Wd
+    -   name: preferredSubfamilyName
+        value: 800 ExBd
+    interpolationCustom: 0.0
+    interpolationWeight: 125.0
+    interpolationWidth: 105.0
+    isItalic: false
+    name: 7 Wd 800 ExBd
+    weightClass: ExtraBold
+    widthClass: Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 7 Wd
+    -   name: preferredSubfamilyName
+        value: 900 Blk
+    interpolationCustom: 0.0
+    interpolationWeight: 140.0
+    interpolationWidth: 105.0
+    isItalic: false
+    name: 7 Wd 900 Blk
+    weightClass: Black
+    widthClass: Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 8 ExWd
+    -   name: preferredSubfamilyName
+        value: 100 Th
+    interpolationCustom: 0.0
+    interpolationWeight: 60.0
+    interpolationWidth: 107.0
+    isItalic: false
+    name: 8 ExWd 100 Th
+    weightClass: Thin
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 8 ExWd
+    -   name: preferredSubfamilyName
+        value: 200 ExLt
+    interpolationCustom: 0.0
+    interpolationWeight: 66.0
+    interpolationWidth: 107.0
+    isItalic: false
+    name: 8 ExWd 200 ExLt
+    weightClass: ExtraLight
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 8 ExWd
+    -   name: preferredSubfamilyName
+        value: 300 Lt
+    interpolationCustom: 0.0
+    interpolationWeight: 73.0
+    interpolationWidth: 107.0
+    isItalic: false
+    name: 8 ExWd 300 Lt
+    weightClass: Light
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 8 ExWd
+    -   name: preferredSubfamilyName
+        value: 400 Rg
+    interpolationCustom: 0.0
+    interpolationWeight: 80.0
+    interpolationWidth: 107.0
+    isItalic: false
+    name: 8 ExWd 400 Rg
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 8 ExWd
+    -   name: preferredSubfamilyName
+        value: 500 Md
+    interpolationCustom: 0.0
+    interpolationWeight: 89.0
+    interpolationWidth: 107.0
+    isItalic: false
+    name: 8 ExWd 500 Md
+    weightClass: Medium
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 8 ExWd
+    -   name: preferredSubfamilyName
+        value: 600 SmBd
+    interpolationCustom: 0.0
+    interpolationWeight: 100.0
+    interpolationWidth: 107.0
+    isItalic: false
+    name: 8 ExWd 600 SmBd
+    weightClass: SemiBold
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 8 ExWd
+    -   name: preferredSubfamilyName
+        value: 700 Bd
+    interpolationCustom: 0.0
+    interpolationWeight: 112.0
+    interpolationWidth: 107.0
+    isItalic: false
+    name: 8 ExWd 700 Bd
+    weightClass: Bold
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 8 ExWd
+    -   name: preferredSubfamilyName
+        value: 800 ExBd
+    interpolationCustom: 0.0
+    interpolationWeight: 125.0
+    interpolationWidth: 107.0
+    isItalic: false
+    name: 8 ExWd 800 ExBd
+    weightClass: ExtraBold
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 8 ExWd
+    -   name: preferredSubfamilyName
+        value: 900 Blk
+    interpolationCustom: 0.0
+    interpolationWeight: 140.0
+    interpolationWidth: 107.0
+    isItalic: false
+    name: 8 ExWd 900 Blk
+    weightClass: Black
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 9 UlWd
+    -   name: preferredSubfamilyName
+        value: 100 Th
+    interpolationCustom: 0.0
+    interpolationWeight: 60.0
+    interpolationWidth: 110.0
+    isItalic: false
+    name: 9 UlWd 100 Th
+    weightClass: Thin
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 9 UlWd
+    -   name: preferredSubfamilyName
+        value: 200 ExLt
+    interpolationCustom: 0.0
+    interpolationWeight: 66.0
+    interpolationWidth: 110.0
+    isItalic: false
+    name: 9 UlWd 200 ExLt
+    weightClass: ExtraLight
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 9 UlWd
+    -   name: preferredSubfamilyName
+        value: 300 Lt
+    interpolationCustom: 0.0
+    interpolationWeight: 73.0
+    interpolationWidth: 110.0
+    isItalic: false
+    name: 9 UlWd 300 Lt
+    weightClass: Light
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 9 UlWd
+    -   name: preferredSubfamilyName
+        value: 400 Rg
+    interpolationCustom: 0.0
+    interpolationWeight: 80.0
+    interpolationWidth: 110.0
+    isItalic: false
+    name: 9 UlWd 400 Rg
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 9 UlWd
+    -   name: preferredSubfamilyName
+        value: 500 Md
+    interpolationCustom: 0.0
+    interpolationWeight: 89.0
+    interpolationWidth: 110.0
+    isItalic: false
+    name: 9 UlWd 500 Md
+    weightClass: Medium
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 9 UlWd
+    -   name: preferredSubfamilyName
+        value: 600 SmBd
+    interpolationCustom: 0.0
+    interpolationWeight: 100.0
+    interpolationWidth: 110.0
+    isItalic: false
+    name: 9 UlWd 600 SmBd
+    weightClass: SemiBold
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 9 UlWd
+    -   name: preferredSubfamilyName
+        value: 700 Bd
+    interpolationCustom: 0.0
+    interpolationWeight: 112.0
+    interpolationWidth: 110.0
+    isItalic: false
+    name: 9 UlWd 700 Bd
+    weightClass: Bold
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 9 UlWd
+    -   name: preferredSubfamilyName
+        value: 800 ExBd
+    interpolationCustom: 0.0
+    interpolationWeight: 125.0
+    interpolationWidth: 110.0
+    isItalic: false
+    name: 9 UlWd 800 ExBd
+    weightClass: ExtraBold
+    widthClass: Extra Expanded
+-   customParameters:
+    -   name: preferredFamilyName
+        value: Schticks Text 9 UlWd
+    -   name: preferredSubfamilyName
+        value: 900 Blk
+    interpolationCustom: 0.0
+    interpolationWeight: 140.0
+    interpolationWidth: 110.0
+    isItalic: false
+    name: 9 UlWd 900 Blk
+    weightClass: Black
+    widthClass: Extra Expanded

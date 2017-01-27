@@ -1,0 +1,378 @@
+#
+# Languagesystem definitions
+#
+
+languagesystem DFLT dflt; # Default default
+languagesystem latn dflt; # Latin default
+languagesystem latn ROM ; # Latin Romanian
+languagesystem latn TRK ; # Latin Turkish
+languagesystem cyrl dflt; # Cyrillic default
+languagesystem grek dflt; # Greek default
+
+@c2sc = [\A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \Agrave \Aacute \Acircumflex \uni1EA6 \uni1EA4 \uni1EAA \uni1EA8 \uni1EAC \Atilde \Adieresis \uni01DE \Amacron \Abreve \uni1EB0 \uni1EAE \uni1EB4 \uni1EB2 \uni1EB6 \Aring \Aringacute \uni1EA2 \uni1E00 \uni1EA0 \Aogonek \AE \AEacute \uni1E02 \uni1E06 \uni1E04 \Cacute \Ccircumflex \Ccaron \Cdotaccent \Ccedilla \uni1E08 \Dcaron \uni1E0A \uni1E12 \uni1E0E \uni1E0C \uni1E10 \Dcroat \Egrave \Eacute \Ecircumflex \uni1EC0 \uni1EBE \uni1EC4 \uni1EC2 \uni1EC6 \Ecaron \uni1EBC \Edieresis \Emacron \uni1E14 \uni1E16 \Ebreve \Edotaccent \uni1EBA \uni1E18 \uni1E1A \uni1EB8 \uni0228 \uni1E1C \Eogonek \uni1E1E \Gcircumflex \uni1E20 \Gbreve \Gdotaccent \Gcommaaccent \Hcircumflex \uni1E26 \uni1E22 \uni1E2A \uni1E24 \uni1E28 \Hbar \Igrave \Iacute \Icircumflex \Itilde \Idieresis \uni1E2E \Imacron \Ibreve \Idotaccent \uni1EC8 \uni1E2C \uni1ECA \Iogonek \Jcircumflex \uni1E30 \uni1E34 \uni1E32 \Kcommaaccent \Lacute \Lcaron \uni1E38 \uni1E3C \uni1E3A \uni1E36 \Lcommaaccent \Ldot \Lslash \uni1E3E \uni1E40 \uni1E42 \Nacute \Ncaron \Ntilde \uni1E44 \uni1E4A \uni1E48 \uni1E46 \Ncommaaccent \Ograve \Oacute \Ocircumflex \uni1ED2 \uni1ED0 \uni1ED6 \uni1ED4 \uni1ED8 \Otilde \uni1E4C \uni1E4E \Odieresis \Omacron \uni1E50 \uni1E52 \Obreve \uni1ECE \Ohungarumlaut \uni1ECC \Ohorn \uni1EDC \uni1EDA \uni1EE0 \uni1EDE \uni1EE2 \Oslash \Oslashacute \OE \uni1E54 \uni1E56 \Racute \Rcaron \uni1E5C \uni1E58 \uni1E5E \uni1E5A \Rcommaaccent \Sacute \uni1E64 \Scircumflex \Scaron \uni1E66 \uni1E60 \uni1E68 \uni1E62 \uni0218 \uni015E \uni1E9E \Tcaron \uni1E6A \uni1E70 \uni1E6E \uni1E6C \uni021A \uni0162 \Tbar \Ugrave \Uacute \Ucircumflex \Utilde \uni1E78 \Udieresis \Umacron \uni1E7A \Ubreve \Uring \uni1EE6 \Uhungarumlaut \uni1E76 \uni1E74 \uni1E72 \uni1EE4 \Uogonek \Uhorn \uni1EEA \uni1EE8 \uni1EEE \uni1EEC \uni1EF0 \uni1E7C \uni1E7E \Wgrave \Wacute \Wcircumflex \Wdieresis \uni1E86 \uni1E88 \uni1E8C \uni1E8A \Ygrave \Yacute \Ycircumflex \uni1EF8 \Ydieresis \uni1E8E \uni1EF6 \uni1EF4 \Zacute \uni1E90 \Zcaron \Zdotaccent \uni1E94 \uni1E92 \uni01B5 \uni0190 \uni2132 \Eng \Eth \Thorn \IJ \ampersand];
+@c2sc2 = [\A.c2sc \B.c2sc \C.c2sc \D.c2sc \E.c2sc \F.c2sc \G.c2sc \H.c2sc \I.c2sc \J.c2sc \K.c2sc \L.c2sc \M.c2sc \N.c2sc \O.c2sc \P.c2sc \Q.c2sc \R.c2sc \S.c2sc \T.c2sc \U.c2sc \V.c2sc \W.c2sc \X.c2sc \Y.c2sc \Z.c2sc \Agrave.c2sc \Aacute.c2sc \Acircumflex.c2sc \uni1EA6.c2sc \uni1EA4.c2sc \uni1EAA.c2sc \uni1EA8.c2sc \uni1EAC.c2sc \Atilde.c2sc \Adieresis.c2sc \uni01DE.c2sc \Amacron.c2sc \Abreve.c2sc \uni1EB0.c2sc \uni1EAE.c2sc \uni1EB4.c2sc \uni1EB2.c2sc \uni1EB6.c2sc \Aring.c2sc \Aringacute.c2sc \uni1EA2.c2sc \uni1E00.c2sc \uni1EA0.c2sc \Aogonek.c2sc \AE.c2sc \AEacute.c2sc \uni1E02.c2sc \uni1E06.c2sc \uni1E04.c2sc \Cacute.c2sc \Ccircumflex.c2sc \Ccaron.c2sc \Cdotaccent.c2sc \Ccedilla.c2sc \uni1E08.c2sc \Dcaron.c2sc \uni1E0A.c2sc \uni1E12.c2sc \uni1E0E.c2sc \uni1E0C.c2sc \uni1E10.c2sc \Dcroat.c2sc \Egrave.c2sc \Eacute.c2sc \Ecircumflex.c2sc \uni1EC0.c2sc \uni1EBE.c2sc \uni1EC4.c2sc \uni1EC2.c2sc \uni1EC6.c2sc \Ecaron.c2sc \uni1EBC.c2sc \Edieresis.c2sc \Emacron.c2sc \uni1E14.c2sc \uni1E16.c2sc \Ebreve.c2sc \Edotaccent.c2sc \uni1EBA.c2sc \uni1E18.c2sc \uni1E1A.c2sc \uni1EB8.c2sc \uni0228.c2sc \uni1E1C.c2sc \Eogonek.c2sc \uni1E1E.c2sc \Gcircumflex.c2sc \uni1E20.c2sc \Gbreve.c2sc \Gdotaccent.c2sc \Gcommaaccent.c2sc \Hcircumflex.c2sc \uni1E26.c2sc \uni1E22.c2sc \uni1E2A.c2sc \uni1E24.c2sc \uni1E28.c2sc \Hbar.c2sc \Igrave.c2sc \Iacute.c2sc \Icircumflex.c2sc \Itilde.c2sc \Idieresis.c2sc \uni1E2E.c2sc \Imacron.c2sc \Ibreve.c2sc \Idotaccent.c2sc \uni1EC8.c2sc \uni1E2C.c2sc \uni1ECA.c2sc \Iogonek.c2sc \Jcircumflex.c2sc \uni1E30.c2sc \uni1E34.c2sc \uni1E32.c2sc \Kcommaaccent.c2sc \Lacute.c2sc \Lcaron.c2sc \uni1E38.c2sc \uni1E3C.c2sc \uni1E3A.c2sc \uni1E36.c2sc \Lcommaaccent.c2sc \Ldot.c2sc \Lslash.c2sc \uni1E3E.c2sc \uni1E40.c2sc \uni1E42.c2sc \Nacute.c2sc \Ncaron.c2sc \Ntilde.c2sc \uni1E44.c2sc \uni1E4A.c2sc \uni1E48.c2sc \uni1E46.c2sc \Ncommaaccent.c2sc \Ograve.c2sc \Oacute.c2sc \Ocircumflex.c2sc \uni1ED2.c2sc \uni1ED0.c2sc \uni1ED6.c2sc \uni1ED4.c2sc \uni1ED8.c2sc \Otilde.c2sc \uni1E4C.c2sc \uni1E4E.c2sc \Odieresis.c2sc \Omacron.c2sc \uni1E50.c2sc \uni1E52.c2sc \Obreve.c2sc \uni1ECE.c2sc \Ohungarumlaut.c2sc \uni1ECC.c2sc \Ohorn.c2sc \uni1EDC.c2sc \uni1EDA.c2sc \uni1EE0.c2sc \uni1EDE.c2sc \uni1EE2.c2sc \Oslash.c2sc \Oslashacute.c2sc \OE.c2sc \uni1E54.c2sc \uni1E56.c2sc \Racute.c2sc \Rcaron.c2sc \uni1E5C.c2sc \uni1E58.c2sc \uni1E5E.c2sc \uni1E5A.c2sc \Rcommaaccent.c2sc \Sacute.c2sc \uni1E64.c2sc \Scircumflex.c2sc \Scaron.c2sc \uni1E66.c2sc \uni1E60.c2sc \uni1E68.c2sc \uni1E62.c2sc \uni0218.c2sc \uni015E.c2sc \uni1E9E.c2sc \Tcaron.c2sc \uni1E6A.c2sc \uni1E70.c2sc \uni1E6E.c2sc \uni1E6C.c2sc \uni021A.c2sc \uni0162.c2sc \Tbar.c2sc \Ugrave.c2sc \Uacute.c2sc \Ucircumflex.c2sc \Utilde.c2sc \uni1E78.c2sc \Udieresis.c2sc \Umacron.c2sc \uni1E7A.c2sc \Ubreve.c2sc \Uring.c2sc \uni1EE6.c2sc \Uhungarumlaut.c2sc \uni1E76.c2sc \uni1E74.c2sc \uni1E72.c2sc \uni1EE4.c2sc \Uogonek.c2sc \Uhorn.c2sc \uni1EEA.c2sc \uni1EE8.c2sc \uni1EEE.c2sc \uni1EEC.c2sc \uni1EF0.c2sc \uni1E7C.c2sc \uni1E7E.c2sc \Wgrave.c2sc \Wacute.c2sc \Wcircumflex.c2sc \Wdieresis.c2sc \uni1E86.c2sc \uni1E88.c2sc \uni1E8C.c2sc \uni1E8A.c2sc \Ygrave.c2sc \Yacute.c2sc \Ycircumflex.c2sc \uni1EF8.c2sc \Ydieresis.c2sc \uni1E8E.c2sc \uni1EF6.c2sc \uni1EF4.c2sc \Zacute.c2sc \uni1E90.c2sc \Zcaron.c2sc \Zdotaccent.c2sc \uni1E94.c2sc \uni1E92.c2sc \uni01B5.c2sc \uni0190.c2sc \uni2132.c2sc \Eng.c2sc \Eth.c2sc \Thorn.c2sc \IJ.c2sc \ampersand.c2sc];
+@c2sc3 = [\uni0410 \uni0411 \uni0412 \uni0413 \uni0414 \uni0415 \uni0416 \uni0417 \uni0418 \uni0419 \uni041A \uni041B \uni041C \uni041D \uni041E \uni041F \uni0420 \uni0421 \uni0422 \uni0423 \uni0424 \uni0425 \uni0426 \uni0427 \uni0428 \uni0429 \uni042A \uni042B \uni042C \uni042D \uni042E \uni042F \uni0462 \uni0472 \uni0474 \uni046A \uni0403 \uni0490 \uni0400 \uni0402 \uni0401 \uni0404 \uni0405 \uni040F \uni040D \uni0406 \uni0407 \uni0408 \uni040C \uni0409 \uni040A \uni040B \uni040E];
+@c2sc4 = [\c.A.c2sc \c.Be.c2sc \c.Ve.c2sc \c.Ghe.c2sc \c.De.c2sc \c.Ie.c2sc \c.Zhe.c2sc \c.Ze.c2sc \c.I.c2sc \c.Ishort.c2sc \c.Ka.c2sc \c.El.c2sc \c.Em.c2sc \c.En.c2sc \c.O.c2sc \c.Pe.c2sc \c.Er.c2sc \c.Es.c2sc \c.Te.c2sc \c.U.c2sc \c.Ef.c2sc \c.Ha.c2sc \c.Tse.c2sc \c.Che.c2sc \c.Sha.c2sc \c.Shcha.c2sc \c.Hard.c2sc \c.Yeru.c2sc \c.Soft.c2sc \c.E.c2sc \c.Yu.c2sc \c.Ya.c2sc \c.Yat.c2sc \c.Fita.c2sc \c.Izhitsa.c2sc \c.BigYus.c2sc \c.Gje.c2sc \c.GheUkr.c2sc \c.Iegrave.c2sc \c.Dje.c2sc \c.Io.c2sc \c.IeUkr.c2sc \c.Dze.c2sc \c.Dzhe.c2sc \c.Igrave.c2sc \c.IUkr.c2sc \c.Yi.c2sc \c.Je.c2sc \c.Kje.c2sc \c.Lje.c2sc \c.Nje.c2sc \c.Tshe.c2sc \c.Ushort.c2sc];
+@c2sc5 = [\Alpha \Beta \Gamma \Delta \Epsilon \Zeta \Eta \Theta \Iota \Kappa \Lambda \Mu \Nu \Xi \Omicron \Pi \Rho \Sigma \Tau \Upsilon \Phi \Chi \Psi \Omega \uni03DC \uni03D8 \uni03D2 \uni03DE \uni03E0 \uni03DA \Alphatonos \Epsilontonos \Etatonos \Iotatonos \Iotadieresis \Omicrontonos \Upsilontonos \Upsilondieresis \Omegatonos \uni03D1 \anoteleia.case];
+@c2sc6 = [\Alpha.c2sc \Beta.c2sc \Gamma.c2sc \Delta.c2sc \Epsilon.c2sc \Zeta.c2sc \Eta.c2sc \Theta.c2sc \Iota.c2sc \Kappa.c2sc \Lambda.c2sc \Mu.c2sc \Nu.c2sc \Xi.c2sc \Omicron.c2sc \Pi.c2sc \Rho.c2sc \Sigma.c2sc \Tau.c2sc \Upsilon.c2sc \Phi.c2sc \Chi.c2sc \Psi.c2sc \Omega.c2sc \Digamma.c2sc \Koppa.c2sc \Upsilon1.c2sc \Koppanumeric.c2sc \Sampi.c2sc \Stigma.c2sc \Alphatonos.c2sc \Epsilontonos.c2sc \Etatonos.c2sc \Iotatonos.c2sc \Iotadialytika.c2sc \Omicrontonos.c2sc \Upsilontonos.c2sc \Upsilondialytika.c2sc \Omegatonos.c2sc \theta1.c2sc \anoteleia.small];
+@c2sc7 = [\Euro \dollar \cent \sterling \yen \uni20A3 \uni20A4 \uni20A7 \zero \one \two \three \four \five \six \seven \eight \nine];
+@c2sc8 = [\Euro.smcp \dollar.smcp \cent.smcp \sterling.smcp \yen.smcp \franc.smcp \lira.smcp \peseta.smcp \zero.SP \one.SP \two.SP \three.SP \four.SP \five.SP \six.SP \seven.SP \eight.SP \nine.SP];
+@case = [\zero.LP \one.LP \two.LP \three.LP \four.LP \five.LP \six.LP \seven.LP \eight.LP \nine.LP];
+@case_dnom_frac_numr = [\zero \one \two \three \four \five \six \seven \eight \nine];
+@ccmp = [\uni0300 \uni0301 \uni0302 \uni03020300 \uni03020301 \uni03020303 \uni03020309 \uni0303 \uni0304 \uni0305 \uni0306 \uni03060300 \uni03060301 \uni03060303 \uni03060309 \uni0307 \uni0308 \uni0309 \uni030A \uni030B \uni030C \uni030D \uni030E \uni030F \uni0310 \uni0311 \uni0312 \uni0313 \uni0314 \uni0315 \uni031A \uni031B \uni033F \uni0346 \uni034C \uni0360 \uni0361];
+@ccmp2 = [\uni0300.cap \uni0301.cap \uni0302.cap \uni03020300.cap \uni03020301.cap \uni03020303.cap \uni03020309.cap \uni0303.cap \uni0304.cap \uni0305.cap \uni0306.cap \uni03060300.cap \uni03060301.cap \uni03060303.cap \uni03060309.cap \uni0307.cap \uni0308.cap \uni0309.cap \uni030A.cap \uni030B.cap \uni030C.cap \uni030D.cap \uni030E.cap \uni030F.cap \uni0310.cap \uni0311.cap \uni0312.cap \uni0313.cap \uni0314.cap \uni0315.cap \uni031A.cap \uni031B.cap \uni033F.cap \uni0346.cap \uni034C.cap \uni0360.cap \uni0361.cap];
+@ccmp3 = [\ampersand \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \b \d \f \h \k \l \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde \Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Oslash \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \Thorn \germandbls \eth \thorn \Amacron \Abreve \Aogonek \Cacute \Ccircumflex \Cdotaccent \Ccaron \Dcaron \dcaron \Dcroat \dcroat \Emacron \Ebreve \Edotaccent \Eogonek \Ecaron \Gcircumflex \Gbreve \Gdotaccent \Hcircumflex \hcircumflex \Hbar \hbar \Itilde \Imacron \Iogonek \Idotaccent \IJ \Jcircumflex \Lacute \lacute \Lcaron \lcaron \Ldot \ldot \Lslash \lslash \Nacute \Ncaron \Omacron \Obreve \Ohungarumlaut \OE \Racute \Rcaron \Sacute \Scircumflex \Scaron \uni0162 \Tcaron \Tbar \Utilde \Umacron \Ubreve \Uring \Uhungarumlaut \Uogonek \Wcircumflex \Ycircumflex \Ydieresis \Zacute \Zdotaccent \Zcaron \longs \uni0218 \uni021A \uni0401 \uni0402 \uni0403 \uni0404 \uni0405 \uni0406 \uni0407 \uni0408 \uni0409 \uni040A \uni040B \uni040C \uni040E \uni040F \uni0410 \uni0411 \uni0412 \uni0413 \uni0414 \uni0415 \uni0416 \uni0417 \uni0418 \uni0419 \uni041A \uni041B \uni041C \uni041D \uni041E \uni041F \uni0420 \uni0421 \uni0422 \uni0423 \uni0424 \uni0425 \uni0426 \uni0427 \uni0428 \uni0429 \uni042A \uni042B \uni042C \uni042D \uni042E \uni042F \uni0431 \uni0444 \uni0452 \uni045B \uni0462 \uni0472 \uni0474 \uni0490 \uni1E30 \uni1E31 \uni1E3E \uni1E54 \Wgrave \Wacute \Wdieresis \uni1E9E \Omega \Delta \f_f \f_f_i \f_f_l \Ibreve \Eng \Aringacute \AEacute \Oslashacute \Alphatonos \Epsilontonos \Etatonos \Iotatonos \Omicrontonos \Upsilontonos \Omegatonos \Alpha \Beta \Gamma \Epsilon \Zeta \Eta \Theta \Iota \Kappa \Lambda \Mu \Nu \Xi \Omicron \Pi \Rho \Sigma \Tau \Upsilon \Phi \Chi \Psi \Iotadieresis \Upsilondieresis \beta \delta \zeta \lambda \xi \psi \uni0400 \uni040D \Ygrave \uni1E02 \uni1E03 \uni1E0A \uni1E0B \uni1E1E \uni1E1F \uni1E40 \uni1E56 \uni1E60 \uni1E6A \Ohorn \Uhorn \Gcommaaccent \Kcommaaccent \Lcommaaccent \Ncommaaccent \Rcommaaccent \kcommaaccent \lcommaaccent \uni01DE \uni0228 \uni1E00 \uni1E04 \uni1E05 \uni1E06 \uni1E07 \uni1E08 \uni1E0C \uni1E0D \uni1E0E \uni1E0F \uni1E10 \uni1E11 \uni1E12 \uni1E13 \uni1E14 \uni1E16 \uni1E18 \uni1E1A \uni1E1C \uni1E20 \uni1E22 \uni1E23 \uni1E24 \uni1E25 \uni1E26 \uni1E27 \uni1E28 \uni1E29 \uni1E2A \uni1E2B \uni1E2C \uni1E2E \uni1E32 \uni1E33 \uni1E34 \uni1E35 \uni1E36 \uni1E37 \uni1E38 \uni1E39 \uni1E3A \uni1E3B \uni1E3C \uni1E3D \uni1E42 \uni1E44 \uni1E46 \uni1E48 \uni1E4A \uni1E4C \uni1E4E \uni1E50 \uni1E52 \uni1E58 \uni1E5A \uni1E5C \uni1E5E \uni1E62 \uni1E64 \uni1E66 \uni1E68 \uni1E6C \uni1E6E \uni1E70 \uni1E72 \uni1E74 \uni1E76 \uni1E78 \uni1E7A \uni1E7C \uni1E7E \uni1E86 \uni1E88 \uni1E8A \uni1E8C \uni1E8E \uni1E90 \uni1E92 \uni1E94 \uni1E96 \uni1E9B \uni1EA0 \uni1EA2 \uni1EA4 \uni1EA6 \uni1EA8 \uni1EAA \uni1EAC \uni1EAE \uni1EB0 \uni1EB2 \uni1EB4 \uni1EB6 \uni1EB8 \uni1EBA \uni1EBC \uni1EBE \uni1EC0 \uni1EC2 \uni1EC4 \uni1EC6 \uni1EC8 \uni1ECA \uni1ECC \uni1ECE \uni1ED0 \uni1ED2 \uni1ED4 \uni1ED6 \uni1ED8 \uni1EDA \uni1EDC \uni1EDE \uni1EE0 \uni1EE2 \uni1EE4 \uni1EE6 \uni1EE8 \uni1EEA \uni1EEC \uni1EEE \uni1EF0 \uni1EF4 \uni1EF6 \uni1EF8 \uni015E \uni01B5 \uni0190 \uni2132 \uni0253 \uni0188 \uni0257 \uni0256 \uni0192 \uni0260 \uni0199 \uni019A \uni026B \uni01A5 \uni01AD \uni0180 \uni0221 \uni1D81 \uni1E9F \uni029B \uniA727 \uni0267 \uni0266 \uni1D84 \uni026C \uni0234 \uni1D85 \uni026D \uni019B \uni019B.var \uni02A0 \uni027A \uni1E9C \uni1E9D \uni028E \uni0283 \uni0284 \uni0286 \uni01AA \uni1D98 \uni0294 \uni02A1 \uni0295 \uni02A2 \uni0296 \uni01BB \uni0278 \uni01C2 \uni01C0 \uni01C1 \uni01C3 \uni0298 \uni02AC \uni02AD \uni02A4 \uni02A3 \uni02A5 \uni02A9 \uni02AA \uni02AB \uni026E \uni02A7 \b.f_ \f._asc \f._f \f._ij \h.f_ \k.f_ \l.f_ \f_b \f_f_b \f_f_h \f_f_j \f_f_k \f_h \f_i \f_j \f_k \f_l \uni0300.cap \uni0301.cap \uni0302.cap \uni03020300.cap \uni03020301.cap \uni03020303.cap \uni03020309.cap \uni0303.cap \uni0304.cap \uni0305.cap \uni0306.cap \uni03060300.cap \uni03060301.cap \uni03060303.cap \uni03060309.cap \uni0307.cap \uni0308.cap \uni0309.cap \uni030A.cap \uni030B.cap \uni030C.cap \uni030D.cap \uni030E.cap \uni030F.cap \uni0310.cap \uni0311.cap \uni0312.cap \uni0313.cap \uni0314.cap \uni0315.cap \uni031A.cap \uni031B.cap \uni033F.cap \uni0346.cap \uni034C.cap \uni0360.cap \uni0361.cap \uni03DC \uni03F4 \uni03D8 \uni03D2 \uni03DE \uni03E0 \uni03DA \uni03DF \uni03E1 \uni03D0 \uni03D1 \uni03D5 \uni046A \brevecomb.Cyrillic.cap];
+@ccmp4 = [\longs \uni1E9B \uni0257 \uni0260 \uni02A0 \uni1E9C \uni1E9D \uni0283 \uni0286 \uni1D98 \uni02A7];
+@ccmp5 = [\uni0302 \uni0304 \uni0306 \uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0312 \uni0300 \uni0301 \uni0303 \uni03020300 \uni03020301 \uni03020303 \uni03020309 \uni0305 \uni03060300 \uni03060301 \uni03060303 \uni03060309 \uni0309 \uni030D \uni030E \uni030F \uni0310 \uni0311 \uni0313 \uni0314 \uni031A \uni031B \uni033F \uni0346 \uni034C \uni0360 \uni0361 \uni033D \uni033E];
+@dnom_frac = [\zero.dnom \one.dnom \two.dnom \three.dnom \four.dnom \five.dnom \six.dnom \seven.dnom \eight.dnom \nine.dnom];
+@frac = [\fraction \zero.dnom \one.dnom \two.dnom \three.dnom \four.dnom \five.dnom \six.dnom \seven.dnom \eight.dnom \nine.dnom];
+@frac_numr = [\zero.numr \one.numr \two.numr \three.numr \four.numr \five.numr \six.numr \seven.numr \eight.numr \nine.numr];
+@onum = [\Euro \dollar \sterling \yen.OP \zero \one \two \three \four \five \six \seven \eight \nine];
+@onum2 = [\Euro.OP \dollar.OP \sterling.OP \yen.OP \zero.OT \one.OT \two.OT \three.OT \four.OT \five.OT \six.OT \seven.OT \eight.OT \nine.OT];
+@pnum = [\zero \one \two \three \four \five \six \seven \eight \nine \zero.OT \one.OT \two.OT \three.OT \four.OT \five.OT \six.OT \seven.OT \eight.OT \nine.OT];
+@pnum2 = [\zero.LP \one.LP \two.LP \three.LP \four.LP \five.LP \six.LP \seven.LP \eight.LP \nine.LP \zero.OP \one.OP \two.OP \three.OP \four.OP \five.OP \six.OP \seven.OP \eight.OP \nine.OP];
+@smcp = [\a \b \c \d \e \f \g \h \i \i.TRK \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \agrave \aacute \acircumflex \uni1EA7 \uni1EA5 \uni1EAB \uni1EA9 \uni1EAD \atilde \adieresis \uni01DF \amacron \abreve \uni1EB1 \uni1EAF \uni1EB5 \uni1EB3 \uni1EB7 \aring \aringacute \uni1EA3 \uni1E01 \uni1EA1 \aogonek \ae \aeacute \uni1E03 \uni1E07 \uni1E05 \uni0253 \cacute \ccircumflex \ccaron \cdotaccent \ccedilla \uni1E09 \uni0188 \dcaron \uni1E0B \uni1E13 \uni1E0F \uni1E0D \uni1E11 \dcroat \uni0257 \uni0256 \egrave \eacute \ecircumflex \uni1EC1 \uni1EBF \uni1EC5 \uni1EC3 \uni1EC7 \ecaron \uni1EBD \edieresis \emacron \uni1E15 \uni1E17 \ebreve \edotaccent \uni1EBB \uni1E19 \uni1E1B \uni1EB9 \uni0229 \uni1E1D \eogonek \uni1E1F \uni0192 \gcircumflex \uni1E21 \gbreve \gdotaccent \gcommaaccent \uni0260 \hcircumflex \uni1E27 \uni1E23 \uni1E96 \uni1E2B \uni1E25 \uni1E29 \hbar \igrave \iacute \icircumflex \itilde \idieresis \uni1E2F \imacron \ibreve \uni1EC9 \uni1E2D \uni1ECB \iogonek \uni0268 \dotlessi \jcircumflex \uni01F0 \uni0237 \uni1E31 \uni1E35 \uni1E33 \kcommaaccent \uni0199 \kgreenlandic \lacute \lcaron \uni1E39 \uni1E3D \uni1E3B \uni1E37 \lcommaaccent \ldot \lslash \uni019A \uni026B \uni1E3F \uni1E41 \uni1E43 \nacute \ncaron \ntilde \uni1E45 \uni1E4B \uni1E49 \uni1E47 \ncommaaccent \napostrophe \ograve \oacute \ocircumflex \uni1ED3 \uni1ED1 \uni1ED7 \uni1ED5 \uni1ED9 \otilde \uni1E4D \uni1E4F \odieresis \omacron \uni1E51 \uni1E53 \obreve \ohungarumlaut \uni1ECF \uni1ECD \ohorn \uni1EDD \uni1EDB \uni1EE1 \uni1EDF \uni1EE3 \oslash \oslashacute \uni0275 \oe \uni1E55 \uni1E57 \uni01A5 \racute \rcaron \uni1E5D \uni1E59 \uni1E5F \uni1E5B \rcommaaccent \sacute \uni1E65 \scircumflex \scaron \uni1E67 \uni1E61 \uni1E69 \uni1E63 \uni0219 \uni015F \germandbls \tcaron \uni1E97 \uni1E6B \uni1E71 \uni1E6F \uni1E6D \uni021B \uni0163 \uni01AD \uni0288 \tbar \ugrave \uacute \ucircumflex \utilde \uni1E79 \udieresis \umacron \uni1E7B \ubreve \uring \uni1EE7 \uhungarumlaut \uni1E77 \uni1E75 \uni1E73 \uni1EE5 \uogonek \uhorn \uni1EEB \uni1EE9 \uni1EEF \uni1EED \uni1EF1 \uni0289 \uni1E7D \uni1E7F \uni028B \wgrave \wacute \wcircumflex \wdieresis \uni1E98 \uni1E87 \uni1E89 \uni1E8D \uni1E8B \ygrave \yacute \ycircumflex \uni1EF9 \ydieresis \uni1E99 \uni1E8F \uni1EF7 \uni1EF5 \zacute \uni1E91 \zcaron \zdotaccent \uni1E95 \uni1E93 \eng \eth \thorn \ij \Euro \dollar \cent \sterling \yen \uni20A3 \uni20A4 \uni20A7];
+@smcp2 = [\a.smcp \b.smcp \c.smcp \d.smcp \e.smcp \f.smcp \g.smcp \h.smcp \i.smcp \i.TRK.smcp \j.smcp \k.smcp \l.smcp \m.smcp \n.smcp \o.smcp \p.smcp \q.smcp \r.smcp \s.smcp \t.smcp \u.smcp \v.smcp \w.smcp \x.smcp \y.smcp \z.smcp \agrave.smcp \aacute.smcp \acircumflex.smcp \uni1EA7.smcp \uni1EA5.smcp \uni1EAB.smcp \uni1EA9.smcp \uni1EAD.smcp \atilde.smcp \adieresis.smcp \uni01DF.smcp \amacron.smcp \abreve.smcp \uni1EB1.smcp \uni1EAF.smcp \uni1EB5.smcp \uni1EB3.smcp \uni1EB7.smcp \aring.smcp \aringacute.smcp \uni1EA3.smcp \uni1E01.smcp \uni1EA1.smcp \aogonek.smcp \ae.smcp \aeacute.smcp \uni1E03.smcp \uni1E07.smcp \uni1E05.smcp \bhook.smcp \cacute.smcp \ccircumflex.smcp \ccaron.smcp \cdotaccent.smcp \ccedilla.smcp \uni1E09.smcp \chook.smcp \dcaron.smcp \uni1E0B.smcp \uni1E13.smcp \uni1E0F.smcp \uni1E0D.smcp \uni1E11.smcp \dcroat.smcp \dhook.smcp \dtail.smcp \egrave.smcp \eacute.smcp \ecircumflex.smcp \uni1EC1.smcp \uni1EBF.smcp \uni1EC5.smcp \uni1EC3.smcp \uni1EC7.smcp \ecaron.smcp \uni1EBD.smcp \edieresis.smcp \emacron.smcp \uni1E15.smcp \uni1E17.smcp \ebreve.smcp \edotaccent.smcp \uni1EBB.smcp \uni1E19.smcp \uni1E1B.smcp \uni1EB9.smcp \uni0229.smcp \uni1E1D.smcp \eogonek.smcp \uni1E1F.smcp \fhook.smcp \gcircumflex.smcp \uni1E21.smcp \gbreve.smcp \gdotaccent.smcp \gcommaaccent.smcp \ghook.smcp \hcircumflex.smcp \uni1E27.smcp \uni1E23.smcp \uni1E96.smcp \uni1E2B.smcp \uni1E25.smcp \uni1E29.smcp \hbar.smcp \igrave.smcp \iacute.smcp \icircumflex.smcp \itilde.smcp \idieresis.smcp \uni1E2F.smcp \imacron.smcp \ibreve.smcp \uni1EC9.smcp \uni1E2D.smcp \uni1ECB.smcp \iogonek.smcp \ibar.smcp \dotlessi.smcp \jcircumflex.smcp \jcaron.smcp \dotlessj.smcp \uni1E31.smcp \uni1E35.smcp \uni1E33.smcp \kcommaaccent.smcp \khook.smcp \kgreenlandic.smcp \lacute.smcp \lcaron.smcp \uni1E39.smcp \uni1E3D.smcp \uni1E3B.smcp \uni1E37.smcp \lcommaaccent.smcp \ldot.smcp \lslash.smcp \lbar.smcp \lwavybar.smcp \uni1E3F.smcp \uni1E41.smcp \uni1E43.smcp \nacute.smcp \ncaron.smcp \ntilde.smcp \uni1E45.smcp \uni1E4B.smcp \uni1E49.smcp \uni1E47.smcp \ncommaaccent.smcp \napostrophe.smcp \ograve.smcp \oacute.smcp \ocircumflex.smcp \uni1ED3.smcp \uni1ED1.smcp \uni1ED7.smcp \uni1ED5.smcp \uni1ED9.smcp \otilde.smcp \uni1E4D.smcp \uni1E4F.smcp \odieresis.smcp \omacron.smcp \uni1E51.smcp \uni1E53.smcp \obreve.smcp \ohungarumlaut.smcp \uni1ECF.smcp \uni1ECD.smcp \ohorn.smcp \uni1EDD.smcp \uni1EDB.smcp \uni1EE1.smcp \uni1EDF.smcp \uni1EE3.smcp \oslash.smcp \oslashacute.smcp \obar.smcp \oe.smcp \uni1E55.smcp \uni1E57.smcp \phook.smcp \racute.smcp \rcaron.smcp \uni1E5D.smcp \uni1E59.smcp \uni1E5F.smcp \uni1E5B.smcp \rcommaaccent.smcp \sacute.smcp \uni1E65.smcp \scircumflex.smcp \scaron.smcp \uni1E67.smcp \uni1E61.smcp \uni1E69.smcp \uni1E63.smcp \uni0219.smcp \scedilla.smcp \germandbls.smcp \tcaron.smcp \uni1E97.smcp \uni1E6B.smcp \uni1E71.smcp \uni1E6F.smcp \uni1E6D.smcp \uni021B.smcp \tcedilla.smcp \thook.smcp \tretroflex.smcp \tbar.smcp \ugrave.smcp \uacute.smcp \ucircumflex.smcp \utilde.smcp \uni1E79.smcp \udieresis.smcp \umacron.smcp \uni1E7B.smcp \ubreve.smcp \uring.smcp \uni1EE7.smcp \uhungarumlaut.smcp \uni1E77.smcp \uni1E75.smcp \uni1E73.smcp \uni1EE5.smcp \uogonek.smcp \uhorn.smcp \uni1EEB.smcp \uni1EE9.smcp \uni1EEF.smcp \uni1EED.smcp \uni1EF1.smcp \ubar.smcp \uni1E7D.smcp \uni1E7F.smcp \vhook.smcp \wgrave.smcp \wacute.smcp \wcircumflex.smcp \wdieresis.smcp \uni1E98.smcp \uni1E87.smcp \uni1E89.smcp \uni1E8D.smcp \uni1E8B.smcp \ygrave.smcp \yacute.smcp \ycircumflex.smcp \uni1EF9.smcp \ydieresis.smcp \uni1E99.smcp \uni1E8F.smcp \uni1EF7.smcp \uni1EF5.smcp \zacute.smcp \uni1E91.smcp \zcaron.smcp \zdotaccent.smcp \uni1E95.smcp \uni1E93.smcp \eng.smcp \eth.smcp \thorn.smcp \ij.smcp \Euro.smcp \dollar.smcp \cent.smcp \sterling.smcp \yen.smcp \franc.smcp \lira.smcp \peseta.smcp];
+@smcp3 = [\uni0430 \uni0431 \uni0432 \uni0433 \uni0434 \uni0435 \uni0436 \uni0437 \uni0438 \uni0439 \uni043A \uni043B \uni043C \uni043D \uni043E \uni043F \uni0440 \uni0441 \uni0442 \uni0443 \uni0444 \uni0445 \uni0446 \uni0447 \uni0448 \uni0449 \uni044A \uni044B \uni044C \uni044D \uni044E \uni044F \uni0463 \uni0473 \uni0475 \uni046B \uni0453 \uni0491 \uni0450 \uni0452 \uni0451 \uni0454 \uni0455 \uni045F \uni045D \uni0456 \uni0457 \uni0458 \uni045C \uni0459 \uni045A \uni045B \uni045E];
+@smcp4 = [\c.a.smcp \c.be.smcp \c.ve.smcp \c.ghe.smcp \c.de.smcp \c.ie.smcp \c.zhe.smcp \c.ze.smcp \c.i.smcp \c.ishort.smcp \c.ka.smcp \c.el.smcp \c.em.smcp \c.en.smcp \c.o.smcp \c.pe.smcp \c.er.smcp \c.es.smcp \c.te.smcp \c.u.smcp \c.ef.smcp \c.ha.smcp \c.tse.smcp \c.che.smcp \c.sha.smcp \c.shcha.smcp \c.hard.smcp \c.yeru.smcp \c.soft.smcp \c.e.smcp \c.yu.smcp \c.ya.smcp \c.yat.smcp \c.fita.smcp \c.izhitsa.smcp \c.bigyus.smcp \c.gje.smcp \c.gheUkr.smcp \c.iegrave.smcp \c.dje.smcp \c.io.smcp \c.ieUkr.smcp \c.dze.smcp \c.dzhe.smcp \c.igrave.smcp \c.iUkr.smcp \c.yi.smcp \c.je.smcp \c.kje.smcp \c.lje.smcp \c.nje.smcp \c.tshe.smcp \c.ushort.smcp];
+@smcp5 = [\uni03F4 \alpha \beta \gamma \delta \epsilon \zeta \eta \theta \iota \kappa \lambda \mu \nu \xi \omicron \pi \rho \sigma \uni03C2 \tau \upsilon \phi \chi \psi \omega \uni03DD \uni03D9 \uni03DF \uni03E1 \uni03DB \uni03D0 \uni03F5 \uni03F6 \uni03F0 \uni03D6 \uni03F1 \uni03D5 \alphatonos \epsilontonos \etatonos \iotatonos \iotadieresis \iotadieresistonos \omicrontonos \upsilontonos \upsilondieresis \upsilondieresistonos \omegatonos \anoteleia];
+@smcp6 = [\Theta1.smcp \alpha.smcp \beta.smcp \gamma.smcp \delta.smcp \epsilon.smcp \zeta.smcp \eta.smcp \theta.smcp \iota.smcp \kappa.smcp \lambda.smcp \mu.smcp \nu.smcp \xi.smcp \omicron.smcp \pi.smcp \rho.smcp \sigma.smcp \sigmafinal.smcp \tau.smcp \upsilon.smcp \phi.smcp \chi.smcp \psi.smcp \omega.smcp \digamma.smcp \koppa.smcp \koppanumeric.smcp \sampi.smcp \stigma.smcp \beta1.smcp \epsilonlunate.smcp \epsilonlunatereversed.smcp \kappa1.smcp \pi1.smcp \rho1.smcp \phi1.smcp \alphatonos.smcp \epsilontonos.smcp \etatonos.smcp \iotatonos.smcp \iotadialytika.smcp \iotadialytikatonos.smcp \omicrontonos.smcp \upsilontonos.smcp \upsilondialytika.smcp \upsilondialytikatonos.smcp \omegatonos.smcp \anoteleia.small];
+@subs = [\parenleft \parenright \zero \one \two \three \four \five \six \seven \eight \nine \plus \uni2212 \equal];
+@subs2 = [\parenleft.subs \parenright.subs \zero.subs \one.subs \two.subs \three.subs \four.subs \five.subs \six.subs \seven.subs \eight.subs \nine.subs \plus.subs \minus.subs \equal.subs];
+@sups = [\a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \parenleft \parenright \zero \one \two \three \four \five \six \seven \eight \nine \plus \uni2212 \equal];
+@sups2 = [\a.sups \b.sups \c.sups \d.sups \e.sups \f.sups \g.sups \h.sups \i.sups \j.sups \k.sups \l.sups \m.sups \n.sups \o.sups \p.sups \q.sups \r.sups \s.sups \t.sups \u.sups \v.sups \w.sups \x.sups \y.sups \z.sups \parenleft.sups \parenright.sups \zero.sups \one.sups \two.sups \three.sups \four.sups \five.sups \six.sups \seven.sups \eight.sups \nine.sups \plus.sups \minus.sups \equal.sups];
+###
+# OpenType Layout feature definitions
+# Format: Adobe FDK for OpenType (AFDKO) version 2.5
+# Generated on: 2017-0-27 2:2
+# Generated by: Fontlab
+# Tool options: fea-inline-lookups: yes, fea-inline-classes: 0, fea-additional-tables: yes, fea-table-overrides: no
+#
+# Totals:
+# Languagesystems: 6
+# GSUB lookups: 49
+# GSUB features: 15 (c2sc, case, ccmp, cv01, cv02, dnom, frac, liga, locl, numr, onum, pnum, smcp, subs, sups)
+# GPOS lookups: 20
+# GPOS features: 1 (kern)
+
+
+#
+# Lookup definitions
+#
+
+  lookup frac_numr_1 {
+    # GSUB lookup 18, type 11 (Single)
+ sub @case_dnom_frac_numr  by @frac_numr ;
+  } frac_numr_1;
+
+
+#
+# Feature definitions
+#
+
+
+
+
+
+feature locl {
+# GSUB feature: Localized Forms
+# Lookups: 2
+
+  script latn; # Latin
+    language TRK ; # Turkish
+ sub \i by \i.TRK;
+    language ROM ; # Romanian
+ sub [\uni015E \uni0162 \uni015F \uni0163] by [\uni0218 \uni021A \uni0219 \uni021B];
+} locl;
+
+feature ccmp {
+# GSUB feature: Glyph Composition / Decomposition
+# Lookups: 7
+
+  lookup ccmp_3 {
+    # GSUB lookup 26, type 11 (Single)
+ sub @ccmp  by @ccmp2 ;
+  } ccmp_3;
+
+  lookup ccmp_5 {
+    # GSUB lookup 27, type 11 (Single)
+ sub [\i \j] by [\i.dotless \j.dotless];
+  } ccmp_5;
+
+  lookup ccmp_2 {
+    # GSUB lookup 4, type 16 (Chaining Context)
+ sub @ccmp3  @ccmp ' lookup ccmp_3 ;
+  } ccmp_2;
+
+  lookup ccmp_1 {
+    # GSUB lookup 3, type 14 (Ligature)
+ sub \uni0302 \uni0300 by \uni03020300;
+ sub \uni0302 \uni0301 by \uni03020301;
+ sub \uni0302 \uni0303 by \uni03020303;
+ sub \uni0302 \uni0309 by \uni03020309;
+ sub \uni0306 \uni0300 by \uni03060300;
+ sub \uni0306 \uni0301 by \uni03060301;
+ sub \uni0306 \uni0303 by \uni03060303;
+ sub \uni0306 \uni0309 by \uni03060309;
+  } ccmp_1;
+
+      lookup ccmp_1;
+      lookup ccmp_2;
+ sub @ccmp4  [\i \j]' lookup ccmp_5 ;
+ subtable;
+ sub [\i \j]' lookup ccmp_5  @ccmp5 ;
+  script latn; # Latin
+    language TRK ; # Turkish
+    language ROM ; # Romanian
+  script cyrl; # Cyrillic
+      lookup ccmp_1;
+      lookup ccmp_2;
+  script grek; # Greek
+      lookup ccmp_1;
+      lookup ccmp_2;
+} ccmp;
+
+feature c2sc {
+# GSUB feature: Small Capitals From Capitals
+# Lookups: 14
+
+  lookup c2sc_3 {
+    # GSUB lookup 8, type 11 (Single)
+ sub @c2sc5  by @c2sc6 ;
+  } c2sc_3;
+
+  lookup c2sc_1 {
+    # GSUB lookup 6, type 11 (Single)
+ sub @c2sc  by @c2sc2 ;
+  } c2sc_1;
+
+  lookup c2sc_2 {
+    # GSUB lookup 7, type 11 (Single)
+ sub @c2sc3  by @c2sc4 ;
+  } c2sc_2;
+
+  lookup c2sc_4 {
+    # GSUB lookup 9, type 11 (Single)
+ sub @c2sc7  by @c2sc8 ;
+  } c2sc_4;
+
+      lookup c2sc_1;
+      lookup c2sc_2;
+      lookup c2sc_3;
+      lookup c2sc_4;
+  script latn; # Latin
+      lookup c2sc_1;
+      lookup c2sc_4;
+    language TRK  exclude_dflt; # Turkish
+      lookup c2sc_1;
+      lookup c2sc_4;
+    language ROM  exclude_dflt; # Romanian
+      lookup c2sc_1;
+      lookup c2sc_4;
+  script cyrl; # Cyrillic
+      lookup c2sc_2;
+      lookup c2sc_4;
+  script grek; # Greek
+      lookup c2sc_3;
+      lookup c2sc_4;
+} c2sc;
+
+feature smcp {
+# GSUB feature: Small Capitals
+# Lookups: 8
+
+  lookup smcp_3 {
+    # GSUB lookup 12, type 11 (Single)
+ sub @smcp5  by @smcp6 ;
+  } smcp_3;
+
+  lookup smcp_2 {
+    # GSUB lookup 11, type 11 (Single)
+ sub @smcp3  by @smcp4 ;
+  } smcp_2;
+
+  lookup smcp_1 {
+    # GSUB lookup 10, type 11 (Single)
+ sub @smcp  by @smcp2 ;
+  } smcp_1;
+
+      lookup smcp_1;
+      lookup smcp_2;
+      lookup smcp_3;
+  script latn; # Latin
+      lookup smcp_1;
+    language TRK  exclude_dflt; # Turkish
+      lookup smcp_1;
+    language ROM  exclude_dflt; # Romanian
+      lookup smcp_1;
+  script cyrl; # Cyrillic
+      lookup smcp_2;
+  script grek; # Greek
+      lookup smcp_3;
+} smcp;
+
+feature case {
+# GSUB feature: Case-Sensitive Forms
+# Lookups: 6
+
+  lookup case_2 {
+    # GSUB lookup 14, type 11 (Single)
+ sub @case_dnom_frac_numr  by @case ;
+  } case_2;
+
+ sub \anoteleia by \anoteleia.case;
+      lookup case_2;
+  script latn; # Latin
+      lookup case_2;
+    language TRK  exclude_dflt; # Turkish
+      lookup case_2;
+    language ROM  exclude_dflt; # Romanian
+      lookup case_2;
+  script cyrl; # Cyrillic
+      lookup case_2;
+  script grek; # Greek
+} case;
+
+feature liga {
+# GSUB feature: Standard Ligatures
+# Lookups: 1
+
+  lookup liga_1 {
+    # GSUB lookup 15, type 14 (Ligature)
+      lookupflag IgnoreMarks;
+ sub \f \f \b by \f_f_b;
+ sub \f \f \h by \f_f_h;
+ sub \f \f \i by \f_f_i;
+ sub \f \f \j by \f_f_j;
+ sub \f \f \k by \f_f_k;
+ sub \f \f \l by \f_f_l;
+ sub \f \b by \f_b;
+ sub \f \f by \f_f;
+ sub \f \h by \f_h;
+ sub \f \i by \f_i;
+ sub \f \j by \f_j;
+ sub \f \k by \f_k;
+ sub \f \l by \f_l;
+  } liga_1;
+
+      lookup liga_1;
+  script latn; # Latin
+    language TRK ; # Turkish
+    language ROM ; # Romanian
+} liga;
+
+feature cv01 {
+# GSUB
+# Lookups: 1
+
+ sub \uni019B by \uni019B.var;
+  script latn; # Latin
+    language TRK ; # Turkish
+    language ROM ; # Romanian
+} cv01;
+
+feature cv02 {
+# GSUB
+# Lookups: 1
+
+ sub \uni0264 by \uni0264.var;
+  script latn; # Latin
+    language TRK ; # Turkish
+    language ROM ; # Romanian
+} cv02;
+
+feature numr {
+# GSUB feature: Numerators
+# Lookups: 1
+
+      lookup frac_numr_1;
+  script latn; # Latin
+    language TRK ; # Turkish
+    language ROM ; # Romanian
+  script cyrl; # Cyrillic
+  script grek; # Greek
+} numr;
+
+feature frac {
+# GSUB feature: Fractions
+# Lookups: 3
+
+  lookup frac_4 {
+    # GSUB lookup 28, type 11 (Single)
+ sub @frac_numr  by @dnom_frac ;
+  } frac_4;
+
+      lookup frac_numr_1;
+ sub \slash by \fraction;
+ sub @frac  @frac_numr ' lookup frac_4 ;
+  script latn; # Latin
+    language TRK ; # Turkish
+    language ROM ; # Romanian
+  script cyrl; # Cyrillic
+  script grek; # Greek
+} frac;
+
+feature dnom {
+# GSUB feature: Denominators
+# Lookups: 1
+
+ sub @case_dnom_frac_numr  by @dnom_frac ;
+  script latn; # Latin
+    language TRK ; # Turkish
+    language ROM ; # Romanian
+  script cyrl; # Cyrillic
+  script grek; # Greek
+} dnom;
+
+feature sups {
+# GSUB feature: Superscript
+# Lookups: 1
+
+ sub @sups  by @sups2 ;
+  script latn; # Latin
+    language TRK ; # Turkish
+    language ROM ; # Romanian
+  script cyrl; # Cyrillic
+  script grek; # Greek
+} sups;
+
+feature subs {
+# GSUB feature: Subscript
+# Lookups: 1
+
+ sub @subs  by @subs2 ;
+  script latn; # Latin
+    language TRK ; # Turkish
+    language ROM ; # Romanian
+  script cyrl; # Cyrillic
+  script grek; # Greek
+} subs;
+
+feature onum {
+# GSUB feature: Oldstyle Figures
+# Lookups: 1
+
+ sub @onum  by @onum2 ;
+  script latn; # Latin
+    language TRK ; # Turkish
+    language ROM ; # Romanian
+  script cyrl; # Cyrillic
+  script grek; # Greek
+} onum;
+
+feature pnum {
+# GSUB feature: Proportional Figures
+# Lookups: 1
+
+ sub @pnum  by @pnum2 ;
+  script latn; # Latin
+    language TRK ; # Turkish
+    language ROM ; # Romanian
+  script cyrl; # Cyrillic
+  script grek; # Greek
+} pnum;
+
+
+
+
+
