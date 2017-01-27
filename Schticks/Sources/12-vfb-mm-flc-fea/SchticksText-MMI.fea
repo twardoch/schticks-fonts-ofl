@@ -101,7 +101,7 @@ feature ccmp {
 
   lookup ccmp_5 {
     # GSUB lookup 29, type 11 (Single)
- sub [\i \j] by [\i.dotless \j.dotless];
+ sub [\i \j] by [i j];
   } ccmp_5;
 
   lookup ccmp_3 {

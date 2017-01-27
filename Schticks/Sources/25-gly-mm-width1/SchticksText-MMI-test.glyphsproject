@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>exportPath</key>
+	<string>/Users/adam/Developer/vcs/github.twardoch/pub/schticks-fonts-ofl/Schticks/Sources/25-gly-mm-width1/otftest</string>
+	<key>fontPath</key>
+	<string>SchticksText-MMI.glyphs</string>
+	<key>instances</key>
+	<array>
+		<dict>
+			<key>customParameters</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>preferredFamilyName</string>
+					<key>value</key>
+					<string>Schticks Text 1 UlCd</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>preferredSubfamilyName</string>
+					<key>value</key>
+					<string>100 Th It</string>
+				</dict>
+			</array>
+			<key>interpolationWeight</key>
+			<real>60</real>
+			<key>interpolationWidth</key>
+			<real>90</real>
+			<key>isItalic</key>
+			<true/>
+			<key>name</key>
+			<string>1 UlCd 100 Th It</string>
+			<key>weightClass</key>
+			<string>Thin</string>
+			<key>widthClass</key>
+			<string>Ultra Condensed</string>
+		</dict>
+	</array>
+</dict>
+</plist>
