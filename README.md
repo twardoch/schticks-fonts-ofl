@@ -5,8 +5,12 @@ The **Schticks Text** font family is an OFL-licensed fork of the **STIX Two Text
 
 ## Font downloads
 
-* [SchticksText-OTF (163 fonts, version 102.000)](https://github.com/twardoch/schticks-fonts-ofl/raw/master/Schticks/Fonts/SchticksText-OTF.zip)
-* [SchticksText-TTF (163 fonts, version 102.000)](https://github.com/twardoch/schticks-fonts-ofl/raw/master/Schticks/Fonts/SchticksText-TTF.zip)
+* [Schticks Text (163 OTF fonts, version 102.000)](https://github.com/twardoch/schticks-fonts-ofl/raw/master/Schticks/Fonts/SchticksText-OTF.zip)
+* [Schticks Text (163 TTF fonts, version 102.000)](https://github.com/twardoch/schticks-fonts-ofl/raw/master/Schticks/Fonts/SchticksText-TTF.zip)
+* [Schticks Text Overview PDF](https://github.com/twardoch/schticks-fonts-ofl/raw/master/Schticks/Media/Schticks-Text-Overview.pdf)
+* [Schticks Text Specimen PDF](https://github.com/twardoch/schticks-fonts-ofl/raw/master/Schticks/Media/Schticks-Text-Specimen.pdf)
+* [Schticks Text Glyph Set PDF](https://github.com/twardoch/schticks-fonts-ofl/raw/master/Schticks/Media/Schticks-Text-Glyphset.pdf)
+
 
 ## Resources
 
@@ -46,10 +50,6 @@ The **Schticks Text** font family is an OFL-licensed fork of the **STIX Two Text
 STIX Fonts(TM) is a trademark of The Institute of Electrical and Electronics Engineers, Inc.
 
 ### Specimen
-
-* [Schticks Text Overview PDF](https://github.com/twardoch/schticks-fonts-ofl/raw/master/Schticks/Media/Schticks-Text-Overview.pdf)
-* [Schticks Text Specimen PDF](https://github.com/twardoch/schticks-fonts-ofl/raw/master/Schticks/Media/Schticks-Text-Specimen.pdf)
-* [Schticks Text Glyph Set PDF](https://github.com/twardoch/schticks-fonts-ofl/raw/master/Schticks/Media/Schticks-Text-Glyphset.pdf)
 
 ![SchticksText-1UlCd100Th.png](Schticks/Media/png/SchticksText-1UlCd100Th.png)
 ![SchticksText-1UlCd100ThIt.png](Schticks/Media/png/SchticksText-1UlCd100ThIt.png)
