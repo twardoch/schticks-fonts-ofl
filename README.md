@@ -1,7 +1,7 @@
 
 # The **Schticks Text** font family
 
-The **Schticks Text** font family is an OFL-licensed fork of the **STIX Two Text** fonts, with a wider weight range and a width range.
+The **Schticks Text** font family is an OFL-licensed fork of the **STIX Two Text** fonts (by Ross Mills, Tiro Typeworks Ltd), with a wider weight range and a width range.
 
 * My modified files are in the [`Schticks`](Schticks/) folder.
 * Original sources are in the [`STIXv2`](STIXv2/) folder, taken from [Sourceforge](https://sourceforge.net/projects/stixfonts/files/Current%20Release/STIXv2.0.0.zip/download)
