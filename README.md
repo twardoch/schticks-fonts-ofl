@@ -3,6 +3,8 @@
 
 The **Schticks Text** font family is an OFL-licensed fork of the **STIX Two Text** fonts (by Ross Mills, Tiro Typeworks Ltd), with a wider weight range and a width range.
 
+**All these fonts are experimental, unfinished, not suitable for production use. They’re subject to change.**
+
 ## Font downloads
 
 * [Schticks Text (163 OTF fonts, version 102.000)](https://github.com/twardoch/schticks-fonts-ofl/raw/master/Schticks/Fonts/SchticksText-OTF.zip)
@@ -10,7 +12,7 @@ The **Schticks Text** font family is an OFL-licensed fork of the **STIX Two Text
 * [Schticks Text Overview PDF](https://github.com/twardoch/schticks-fonts-ofl/raw/master/Schticks/Media/Schticks-Text-Overview.pdf)
 * [Schticks Text Specimen PDF](https://github.com/twardoch/schticks-fonts-ofl/raw/master/Schticks/Media/Schticks-Text-Specimen.pdf)
 * [Schticks Text Glyph Set PDF](https://github.com/twardoch/schticks-fonts-ofl/raw/master/Schticks/Media/Schticks-Text-Glyphset.pdf)
-
+* [Entire repo with sources and tools ZIP](https://github.com/twardoch/schticks-fonts-ofl/archive/master.zip)
 
 ## Resources
 
