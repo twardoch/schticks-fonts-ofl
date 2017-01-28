@@ -14,6 +14,8 @@ The **Schticks Text** font family is an OFL-licensed fork of the **STIX Two Text
 
 **All these fonts are experimental, unfinished, not suitable for production use. They’re subject to change.**
 
+Currently, many diacritics are mis-aligned, and some spacing is off.
+
 ## Font downloads
 
 * [Schticks Text (163 OTF fonts, version 102.000)](https://github.com/twardoch/schticks-fonts-ofl/raw/master/Schticks/Fonts/SchticksText-OTF.zip)
