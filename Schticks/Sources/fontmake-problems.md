@@ -1,7 +1,7 @@
 
 I’ve run into a number of problems with `glyphsLib` and `fontmake`.
 
-The fonts I’m talking about are in the [https://github.com/twardoch/shticks-font](https://github.com/twardoch/shticks-font), `Shticks/Sources/25-gly-mm-width1` subfolder.
+The fonts I’m talking about are in the [https://github.com/twardoch/schticks-fonts-ofl](https://github.com/twardoch/schticks-fonts-ofl), `Schticks/Sources/25-gly-mm-width1` subfolder.
 
 ## Configuration
 
@@ -50,7 +50,7 @@ In **both configurations**, when running **fontmake** like this:
 fontmake -g SchticksText-MM.glyphs --verbose 'DEBUG' --keep-overlaps --production-names -o variable
 ```
 
-on the **SchticksText-MM.glyphs** font in [25-gly-mm-width1/bak](25-gly-mm-width1/bak) font from my [https://github.com/twardoch/shticks-font](https://github.com/twardoch/shticks-font) repo, I get a number of problems.
+on the **SchticksText-MM.glyphs** font in [25-gly-mm-width1/bak](25-gly-mm-width1/bak) font from my [https://github.com/twardoch/schticks-fonts-ofl](https://github.com/twardoch/schticks-fonts-ofl) repo, I get a number of problems.
 
 ## Spurious illegal names
 
